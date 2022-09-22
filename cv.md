@@ -1,10 +1,10 @@
 rschool-cv
 ***
 
-![Image](C:\ITJS\RS_school\rsschool-cv\img_photo.jpg)\
+![Image](https://github.com/Nikolay-Kolotilo/rsschool-cv/blob/gh-pages/img_photo.jpg)\
 ![Image][1]
 ⋮
-[1]: C:\ITJS\RS_school\rsschool-cv\img_photo.jpg
+[1]: https://github.com/Nikolay-Kolotilo/rsschool-cv/blob/gh-pages/img_photo.jpg
 # **Nikolay Kolotilo**
 
 ### JavaScript Front-end Course participant of RSSchool
