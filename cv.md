@@ -21,7 +21,7 @@ Hello, I am 44 years old. I am an engineer project manager, the father of a wond
 * HTML5, CSS3
 * JavaScript Basics
 * Git, GitHub Basics
-* VS Code Basics
+* VS Code Basics\
 ***
 ## Code example:
 ```
