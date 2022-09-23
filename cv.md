@@ -1,10 +1,8 @@
 rschool-cv
 ***
 
-![Image](https://github.com/Nikolay-Kolotilo/rsschool-cv/blob/gh-pages/img_photo.jpg)\
-![Image][1]
-⋮
-[1]: https://github.com/Nikolay-Kolotilo/rsschool-cv/blob/gh-pages/img_photo.jpg
+![Image](https://github.com/Nikolay-Kolotilo/rsschool-cv/blob/gh-pages/img_photo.jpg?raw=true)
+
 # **Nikolay Kolotilo**
 
 ### JavaScript Front-end Course participant of RSSchool
