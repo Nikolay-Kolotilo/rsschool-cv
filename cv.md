@@ -1,7 +1,7 @@
 rschool-cv
 ***
 
-![Image](https://github.com/Nikolay-Kolotilo/rsschool-cv/blob/main/img_photo.jpg?raw=true)
+![Image](https://github.com/Nikolay-Kolotilo/rsschool-cv/blob/gh-pages/img_photo.jpg?raw=true)
 
 # **Nikolay Kolotilo**
 
