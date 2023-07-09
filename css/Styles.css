@@ -1,6 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background: #F5F7FA;
+
 }
 
 /* Main ctyles */
@@ -244,4 +245,31 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;    
+}
+.page-footer {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    height: 75px;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+
+.navbar-brand {
+    margin-left: 300px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;    
+}
+.contact-links__link {
+    display: inline-block;
+    text-decoration: none;
+    margin: 20px 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 65px;
+    color: #000000;
+    margin: 0px 0px 10px 0px;
+    margin-left: 300px;
 }

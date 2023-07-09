@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/Styles.css">
     <title>Resume Nikolay Kolotilo</title>
+    <link rel="icon" href="#">
 </head>
 <body>
     <header class="page-header">
@@ -17,6 +18,10 @@
                 <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
                 <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
                 <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#english" class="nav-link">English</a></li>  
             </ul>
         </nav>
     </header>
@@ -25,7 +30,7 @@
         <!-- Mein_Description_Rightside-->
         <div class="Mein-descriphion">
             <!--About_Mee-->
-            <div class="Mein_Description_Rightside">
+            <div class="Mein_Description_Rightside" id="summary">
                 <h2 class="about-position">HTML5 Course participant of GOIT </h2>                
                 <h1 class="about-name">Nikolay Kolotilo</h1>                
                 <P class="about-description">Hello, I am 44 years old. I am an engineer project manager, 
@@ -35,29 +40,39 @@
                     I can be useful to the team and who can be useful to me.</P>
             </div>
             <!--Projects_list-->
-            <div class="work">                
+            <div class="work" id="english">
+                <h3 class="title">Languages</h3>
+                <h4 class="work-position">English level
+                    <span class="line">|</span>
+                    <span class="organization">A2</span>
+                </h4>
+            </div>            
+            <div class="work" id="code">
+                <h3 class="title">Code example</h3>
+                <h4 class="about-description">
+                    <code>
+                            export const oneWillDo = (x, y, z) => {
+                            return x === true || y === true || z === true;
+                            }                   
+                    </code>
+                </h4>
+            </div>
+            <div class="work" id="projects">                
                 <h3 class="title">Projects</h3>
                 <ol class="project-list">
                     <li class="project-item">
                         <span class="project">
-                        <a href="http://www.ecopolymer.kh.ua/" class="project-link">Екополимер</a>
+                        <a href="https://github.com/Nikolay-Kolotilo/Food-Project/blob/master/index.html" class="project-link">Udemy Food-Project</a>
                         ...........
                         <span class="project-breaket">[</span>
-                        2000-2020
-                        <span class="project-breaket">]</span>
-                        </span></li>
-                    <li class="project-item">
-                        <span class="project"><a href="https://www.google.com.ua/" class="project-link">Google</a>
-                        ...........
-                        <span class="project-breaket">[</span>
-                        1978-2022
+                        december 2022
                         <span class="project-breaket">]</span>
                         </span></li>
                     <li class="project-item">
                         <span class="project"><a href="https://goit.ua/" class="project-link">GO IT</a>
                         ...........
                         <span class="project-breaket">[</span>
-                        August 2020 - All life in my hart!
+                        August 2022
                         <span class="project-breaket">]</span>
                     </span></li>
                 </ol>
@@ -65,19 +80,6 @@
             <!--Work-->
             <div class="work">
                 <h3 class="title">Work experience</h3>
-                <!--Company 1-->
-                <div>
-                    <h4 class="work-position">Engenear category 3-1 <span class="organization">ECOPOLYMER</span></h4>
-                    <p class="period">2000-2008 
-                        <span class="line">|</span>
-                        Ukraine</p>                    
-                    <ul class="work-list">
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li>Risus commodo viverra maecenas.</li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>  
-                    </ul>
-                </div>
                 <!--Company 2-->
                 <div>
                     <h4 class="work-position">Engenear Project Manadger <span class="organization">ECOPOLYMER</span></h4>
@@ -86,27 +88,32 @@
                     Ukraine
                     </p>
                     <ul class="work-list">
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua.</li>
-                        <li>Quis ipsum suspendisse ultrices gravida.</li>
-                        <li>Risus commodo viverra maecenas.</li>
+                        <li>drawing up design assignments</li>
+                        <li>organization of design work</li>
+                        <li>subcontractor search</li>
+                        <li>making layout decisions</li>
+                        <li>drawing up a schedule of design work</li>
+                        <li>quality control of the work</li>
+                        <li>training of customer personnel (if necessary)</li>
                     </ul>
                 </div>
-                <!--Company 3-->
+                <!--Company 1-->
                 <div>
-                    <h4 class="work-position">Manager <span class="organization">Roga & Kopyta LLC</span></h4>
-                    <p class="period">June 2014 - February 2015   
-                        <span class="line">|</span>   
-                        Country</p>
+                    <h4 class="work-position">Engenear category 3-1 <span class="organization">ECOPOLYMER</span></h4>
+                    <p class="period">2000-2008 
+                        <span class="line">|</span>
+                        Ukraine</p>                    
                     <ul class="work-list">
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li>Quis ipsum suspendisse ultrices gravida.</li>
-                        <li>Risus commodo viverra maecenas.</li>
+                        <li>collection of input data</li>
+                        <li>calculation of technological systems</li>
+                        <li>drawing design</li>
+                        <li>issuing tasks for other sections of the project</li>  
+                        <li>set of drawings</li>  
                     </ul>
                 </div>
-            
             </div>
             <!--Education-->
-            <div class="Education">
+            <div class="Education" id="education">
                 <h3 class="title">Education</h3>
                 <h4 class="organization-Education">Kharkiv National University of Civil Engineering and Architecture</h4>
                 <h4 class="work-position">water supply and sanitation
@@ -125,9 +132,9 @@
         <!--SideBar-->
         <aside class="Sidebar">
             <!--User Foto-->
-            <img width="370" src="Фото.jpg" alt="User Foto" class="photo">                
+            <img width="370" src="Фото.jpg" alt="Foto Nikolay-Kolotilo" class="photo">                
             <!--Contacts-->
-            <div class="contacts-text">
+            <div class="contacts-text" id="contacts">
                 <h3 class="sidebar-title">Contacts</h3>
                 <div>
                     <P>
@@ -157,7 +164,7 @@
             </div>
             <!--Soft Skills-->
             <div class="soft-skills-text">
-                <h3 class="sidebar-title">Soft Skills</h3>
+                <h3 class="sidebar-title" id="skills">Soft Skills</h3>
                 <ul class="TS-SS-header-text">
                     <li class="soft-skills-list"><span class="soft-skills-item">Self-organization and self-discipline
                         </span></li>
@@ -181,8 +188,12 @@
             </div>
         </aside>
    </main>
-   <footer>
-    
-   </footer>
+    <footer class="page-footer">
+        <a href="https://rs.school/js-stage0/">
+            <span  class="navbar-brand"><img height="55" src="/rs_school.svg" alt="RS Logo"></span>
+        </a>    
+        <a href="https://github.com/Nikolay-Kolotilo" class="contact-links__link" target="_blank">Github</a>
+        <p>© 2023 by Nikolai Kolotilo</p>
+    </footer>
 </body>
 </html>
